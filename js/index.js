@@ -56,15 +56,7 @@ const priceModal = $.modal({
         console.log('Primary btn clicked');
         priceModal.close();
       },
-    },
-    {
-      text: 'Delete',
-      type: 'danger',
-      handler() {
-        console.log('Danger btn clicked');
-        priceModal.close();
-      },
-    },
+    }
   ],
 });
 
